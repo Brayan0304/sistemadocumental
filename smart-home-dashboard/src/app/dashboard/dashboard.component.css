@@ -1,0 +1,175 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.dashboard {
+    display: flex;
+    height: 100vh;
+}
+
+/* Estilos del Sidebar */
+.sidebar {
+    width: 200px;
+    background-color: #2e1575;
+    padding: 20px 0;
+}
+
+.nav-item {
+    margin: 15px 0;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.nav-link i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    background-color: #5b52e1;
+}
+
+/* Estilos del contenido principal */
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+header .welcome h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header .login-icon {
+    font-size: 16px;
+}
+
+header .login-icon i {
+    margin-right: 5px;
+}
+
+.device-controls {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.device {
+    background-color: #eef2ff;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1;
+    margin: 10px;
+}
+
+.device.active {
+    background-color: #6c63ff;
+    color: white;
+}
+
+/* Estilos del control de temperatura */
+.temperature-control {
+    margin-top: 30px;
+}
+
+.temperature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.temp-dial {
+    font-size: 24px;
+    background-color: #6c63ff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+/* Estilos del consumo de energía */
+.power-consumption {
+    margin-top: 30px;
+}
+
+.chart {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+/* Estilos del panel derecho */
+.right-panel {
+    width: 250px;
+    background-color: #eef2ff;
+    padding: 20px;
+}
+
+.devices-summary {
+    margin-bottom: 20px;
+}
+
+.device-summary {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.members ul {
+    list-style: none;
+    padding: 0;
+}
+
+.members ul li {
+    margin-bottom: 10px;
+}
+
+.login-icon {
+    margin: 20px;
+}
+
+.login-link {
+    font-size: 1em; /* Aumenta el tamaño del texto */
+}
+
+.login-link i {
+    font-size: 2em; /* Aumenta el tamaño del ícono */
+}
+
+.welcome {
+    margin-bottom: 20px; /* Espacio debajo del mensaje de bienvenida */
+}
+
+.welcome h2 {
+    font-size: 1.8em; /* Tamaño de la fuente del título */
+    color: #333; /* Color del título */
+}
+
+.welcome p {
+    font-size: 0.9em; /* Tamaño más pequeño para el párrafo */
+    color: #555; /* Color del texto */
+    max-width: 600px; /* Ancho máximo para mantener el texto centrado */
+}
+
