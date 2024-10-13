@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { DashboardComponent } from './dashboard/dashboard.component'; // Importar el componente autónomo
-
+import { DashboardComponent } from './dashboard/dashboard.component'; 
+import { FormComponent } from './form/form.component';
 
 @Component({
   selector: 'app-root',
