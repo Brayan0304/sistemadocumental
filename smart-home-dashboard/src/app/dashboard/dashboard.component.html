@@ -11,7 +11,6 @@
 </head>
 
 <body>
-
     <div class="dashboard">
         <!-- Sidebar -->
         <div class="sidebar">
@@ -20,16 +19,20 @@
                     <a href="#" class="nav-link"><i class="bi bi-cast"></i>Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link"><i class="bi bi-file-person-fill"></i>Agregar Personal</a>
+                    <a routerLink="/addstaff" routerLinkActive="active" class="nav-link"><i
+                            class="bi bi-file-person-fill"></i>Agregar Personal</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link"><i class="bi bi-currency-dollar"></i>Agregar Sueldos</a>
+                    <a routerLink="/addsalary" routerLinkActive="active" class="nav-link"><i
+                            class="bi bi-currency-dollar"></i>Agregar Sueldos</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link"><i class="bi bi-file-pdf-fill"></i>Generar Archivos</a>
+                    <a routerLink="/reports" routerLinkActive="active" class="nav-link"><i
+                            class="bi bi-file-pdf-fill"></i>Generar Reportes</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link"><i class="bi bi-nut"></i>Configuración</a>
+                    <a routerLink="/configuration" routerLinkActive="active" class="nav-link"><i
+                            class="bi bi-nut"></i>Configuración</a>
                 </li>
             </ul>
         </div>
@@ -41,16 +44,13 @@
                     <h2>Sistema de Gestión Documental</h2>
                     <p>Bienvenido Nombre de la empresa</p>
                 </div>
-            </header>            
-
-             
-
-
+            </header>
         </div>
 
         <!-- Login -->
         <div class="login-icon text-end">
-                <a mat-list-item routerLink="/form" routerLinkActive="active" class="text-dark login-link"><i class="bi bi-person-badge"></i></a>
+            <a mat-list-item routerLink="/form" routerLinkActive="active" class="text-dark login-link"><i
+                    class="bi bi-person-badge"></i></a>
         </div>
     </div>
 
